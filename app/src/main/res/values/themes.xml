@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Renting" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/login</item>
+        <item name="colorPrimaryVariant">@color/login</item>
+        <item name="colorOnPrimary">@color/login</item>
+        <item name="android:statusBarColor">@color/login</item>
+    </style>
+    <style name="Theme.Renting.LoginPage" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize LoginPage theme here if needed -->
+        <item name="colorPrimary">@color/login</item>
+        <item name="colorPrimaryVariant">@color/login</item>
+        <item name="colorOnPrimary">@color/login</item>
+        <item name="android:statusBarColor">@color/login</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/login</item>
+        <item name="colorPrimaryVariant">@color/login</item>
+        <item name="colorOnPrimary">@color/login</item>
+        <item name="android:statusBarColor">@color/login</item>
+    </style>
+    <style name="AppTheme.Secondary" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/login</item>
+
+    </style>
+    <style name="Theme.Renting.RentPage" parent="Theme.Material3.Light">
+        <!-- Customize LoginPage theme here if needed -->
+
+    </style>
+
+    <style name="Theme.Renting" parent="Base.Theme.Renting" />
+</resources>

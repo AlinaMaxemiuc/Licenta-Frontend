@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greengrd"
+    tools:context=".FirstPage">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView3"
+        android:layout_width="297dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/logonobg" />
+
+    <TextView
+        android:id="@+id/appDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mobile application\n for drone rental"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imageView3"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btntoSecondPage"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Login"
+        android:background="#F6F6F2"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="90dp"
+        app:cornerRadius="35dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Create account"
+        android:background="#F6F6F2"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/btntoSecondPage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        app:cornerRadius="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
